@@ -1,0 +1,20 @@
+{
+  "name": "open-fantasy-football",
+  "version": "0.0.1",
+  "description": "Fantasy football for nerds, developed by nerds",
+  "main": "index.js",
+  "workspaces": ["open-fantasy-football-ui"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackcmeyer/open-fantasy-football.git"
+  },
+  "author": "Jack Meyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jackcmeyer/open-fantasy-football/issues"
+  },
+  "homepage": "https://github.com/jackcmeyer/open-fantasy-football#readme"
+}
