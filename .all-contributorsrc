@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "jackcmeyer",
+      "name": "Jack Meyer",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/18731800?v=4",
+      "profile": "https://www.jackcmeyer.dev",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "open-fantasy-football",
+  "projectOwner": "jackcmeyer",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
