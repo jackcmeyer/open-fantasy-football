@@ -1,3 +1,9 @@
 # Open Fantasy Football
 
-> Fantasy footbal for nerds, developed by nerds
+> Fantasy football for nerds, developed by nerds
+
+## Getting Started
+
+This repository is structured as [monorepo](https://en.wikipedia.org/wiki/Monorepo) where each sub-folder is an independently deployable project.
+
+To get started, each each projects README for instructions on how to launch the application locally.
