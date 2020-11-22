@@ -3,7 +3,15 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+## Overview
+
 > Fantasy football for nerds, developed by nerds
+
+
+| Project                                                                            | Status                                                                                  | Description                        |
+|------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|------------------------------------|
+| [UI](https://github.com/jackcmeyer/open-fantasy-football/blob/main/ui/README.md)   | ![CI](https://github.com/jackcmeyer/open-fantasy-football/workflows/UI%20CI/badge.svg)  | React Frontend deployed to Vercel  |
+| [API](https://github.com/jackcmeyer/open-fantasy-football/blob/main/api/README.md) | ![CI](https://github.com/jackcmeyer/open-fantasy-football/workflows/API%20CI/badge.svg) | Nest.js backend deployed to Heroku |
 
 ## Getting Started
 
