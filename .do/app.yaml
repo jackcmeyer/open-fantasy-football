@@ -1,0 +1,12 @@
+name: open-fantasy-football
+
+services:
+- name: api
+  environment_slug: node.js
+  github:
+    repo: jackcmeyer/open-fantasy-football
+    branch: main
+    deploy_on_push: true
+  source_dir: api
+  routes:
+  - path: /api
