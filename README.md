@@ -7,7 +7,6 @@
 
 > Fantasy football for nerds, developed by nerds
 
-
 | Project                                                                            | Status                                                                                  | Description                        |
 |------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|------------------------------------|
 | [UI](https://github.com/jackcmeyer/open-fantasy-football/blob/main/ui/README.md)   | ![CI](https://github.com/jackcmeyer/open-fantasy-football/workflows/UI%20CI/badge.svg)  | React Frontend deployed to Vercel  |
@@ -18,6 +17,14 @@
 This repository is structured as [monorepo](https://en.wikipedia.org/wiki/Monorepo) where each sub-folder is an independently deployable project.
 
 To get started, check each projects README for instructions on how to launch the application locally.
+
+## Goals
+This project has the following goals:
+
+- provide best in class customization in league configurations and rules
+- provide an easy to use UI
+- provide league owners with ways to make managing rosters exciting, even after draft day
+- provide a real-time gameday hub
 
 ## Contributors ✨
 
