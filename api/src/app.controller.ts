@@ -1,12 +1,17 @@
-import { Controller, Get } from '@nestjs/common';
-import { AppService } from './app.service';
+import { Controller, Get, UseGuards } from '@nestjs/common';
+import { AuthGuard } from '@nestjs/passport';
 
 @Controller()
 export class AppController {
-  constructor(private readonly appService: AppService) {}
+  constructor() {}
 
+  @UseGuards(AuthGuard('jwt'))
   @Get()
-  getHello(): string {
-    return this.appService.getHello();
+  getInfo(): Object {
+    return {
+      name: 'open-fantasy-football',
+      time: new Date(Date.now()).toISOString(),
+      version: '0.1.0',
+    };
   }
 }
