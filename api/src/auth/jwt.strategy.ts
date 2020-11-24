@@ -22,9 +22,6 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
       issuer: `${process.env.AUTH0_ISSUER_URL}`,
       algorithms: ['RS256'],
     });
-
-    console.log(`${process.env.AUTH0_ISSUER_URL}.well-known/jwks.json`)
-    console.log(process.env.AUTH0_AUDIENCE)
   }
 
   validate(payload: unknown): unknown {
